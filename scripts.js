@@ -5,8 +5,28 @@ const currencySelectConverted = document.querySelector(".currency-select-convert
 
 convertButton.addEventListener("click", convertValues)
 
-const dolarToday = 5.69
-const euroToday = 6.37
+let dolarToday = 0
+let euroToday = 0
+
+// Função para buscar as cotações
+async function fetchExchangeRates() {
+    try {
+        const response = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL")
+        const data = await response.json()
+
+        dolarToday = parseFloat(data.USDBRL.high)      // Cotação do dólar
+        euroToday = parseFloat(data.EURBRL.high)       // Cotação do euro
+
+        console.log("Cotação atualizada:")
+        console.log("Dólar:", dolarToday)
+        console.log("Euro:", euroToday)
+    } catch (error) {
+        console.error("Erro ao buscar cotações:", error)
+    }
+}
+
+// Chama a função ao carregar a página
+fetchExchangeRates()
 
 
 function convertValues() {
