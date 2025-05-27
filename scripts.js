@@ -32,7 +32,6 @@ async function fetchExchangeRates() {
 // Chama a função ao carregar a página
 fetchExchangeRates()
 
-
 function convertValues() {
 
     const inputCurrencyValue = document.querySelector(".input-value").value
@@ -93,7 +92,6 @@ function changeCurrency() {
         currencyImg.src = "./assets/dolar.png"
     }
 
-
     //Troca o texto da area convertida e imagem quando o select for euro
     if (currencySelectConverted.value == "euro") {
         currencyNameConverted.innerHTML = "Euro"
@@ -118,6 +116,5 @@ function changeCurrency() {
         currencyImg.src = "./assets/bitcoin.png"
     }
 
-   
     convertValues()
 }
