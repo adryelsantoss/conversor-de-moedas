@@ -30,7 +30,7 @@ O foco principal foi aplicar conceitos fundamentais de JavaScript para construir
 
 ## ⚙️ Funcionalidades
 
-- 💱 Conversão entre moedas com base em taxas fixas  
+- 💱 Conversão entre moedas em tempo real  
 - 🖥️ Interface limpa e funcional  
 - 📱 Design responsivo para desktop e mobile  
 - 🧠 Lógica simples e de fácil compreensão
