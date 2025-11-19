@@ -11,7 +11,7 @@ Projeto simples de um conversor de moedas desenvolvido com HTML, CSS e JavaScrip
 Projeto desenvolvido durante os estudos no DevClub com foco no aprendizado prático de JavaScript, utilizando HTML e CSS.
 
 - Manipulação do DOM e eventos em JavaScript
-- Lógica para conversão de moedas usando taxas de câmbio fixas
+- Lógica para conversão de moedas usando API para taxas de câmbio em tempo real
 - Estruturação semântica com HTML
 - Estilização com CSS moderno e responsivo
 - Adaptação visual para desktop e mobile com media queries
@@ -34,6 +34,12 @@ O foco principal foi aplicar conceitos fundamentais de JavaScript para construir
 - 🖥️ Interface limpa e funcional  
 - 📱 Design responsivo para desktop e mobile  
 - 🧠 Lógica simples e de fácil compreensão
+  
+<br>
 
+## 🌐 Veja online
+[💻<b>*Abrir Projeto Online*</b>](https://adryelsantoss.github.io/conversor-de-moedas/)
+
+<br>
 
 ---
